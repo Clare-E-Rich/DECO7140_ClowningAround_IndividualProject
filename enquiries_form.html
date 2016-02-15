@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Clowning Around - Enquiries Form</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body>
+	
+<div id="all_content">		
+		<header id="top">
+			<img src="images/logo_with_text.png" alt="Clowning Around" />
+
+			<!-- Main Navigation Menu Bar -->
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="classes.html">Classes</a></li>
+					<li><a href="camps.html">Camps</a></li>
+					<li><a href="workshops.html">Workshops</a></li>
+					<li><a href="gallery.html">Gallery</a></li>					
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+			<!-- End Main Navigation Menu Bar -->
+		</header>
+		<section>
+			<h1>Enquiries Form</h1>
+			<img src="images/179804_5156.jpg" alt="Clowns" id="geninfo" />
+			<form id="enquiriesForm">
+				<p>
+					<span class="formform"><label for="name">Name:</label></span>
+						<input type="text" name="name" id="name" value="" />
+						<div id="NameError"></div>
+				</p>
+				<p>
+					<span class="formform"><label for="email">Email:</label></span>
+						<input type="text" name="email" id="email" value="" />
+						<div id="EmailError"></div>
+				</p>
+				<p>
+					<span class="formform"><label for="phone">Phone:</label></span>
+						<input type="text" name="phone" id="phone" value="" />
+						<div id="PhoneError"></div>
+				</p>
+				<p>
+					<span class="formform"><label for="suburb">Suburb</label></span>
+						<input type="text" name="suburb" id="suburb" value="" />
+						<div id="SuburbError"></div>
+				</p>
+				<p><label for="method_of_contact">Preferred Method of Contact:</label></p>
+					<p>
+						<span class="formRadio"><input type="radio" name="preferred_method" id="preferred_method_phone" value="phone" />
+							<label for="preferred_method_phone">Phone</label></span>
+						<span class="formRadio"><input type="radio" name="preferred_method" id="preferred_method_email" value="email" checked />
+							<label for="preferred_method_email">Email</label></span>														
+					</p>
+				<p><label for="interested_in">Interested in:</label></p>
+					<p>
+						<span class="formRadio">&nbsp;</span>
+						<span class="formRadio"><label for="interested_in_classes">Classes for:</label></span>
+						<span class="formRadio"><input type="checkbox" name="littlies" id="littlies" value="" />
+							<label for="littlies">Littlies</label></span>
+						<span class="formRadio"><input type="checkbox" name="middlies" id="middlies" value="" />
+							<label for="middlies">Middlies</label></span>
+						<span class="formRadio"><input type="checkbox" name="teens" id="teens" value="" />
+							<label for="teens">Teens</label></span>
+						<span class="formRadio"><input type="checkbox" name="adults" id="adults" value="" />
+							<label for="adults">Adults</label></span>
+					</p>
+					<p>
+						<span class="formRadio">&nbsp;</span>
+						<span class="formRadio">&nbsp;</span>
+						<span class="formRadio"><input type="checkbox" name="workshops" id="workshops" value="" />
+							<label for="workshops">Workshops</label></span>
+						<span class="formRadio"><input type="checkbox" name="camps" id="camps" value="" />
+							<label for="camps">Camps</label></span>					
+					</p>
+					<p><label for="additional_information">Additional Information:</label></p>
+					<p>
+						<span class="formform">&nbsp;</span>
+						<input type="text" name="additional_information" id="additional_information" value="" />
+					</p>
+					<p id="submitForm" class="blueButton">Submit</p>
+			</form>
+		</section>
+		<footer>
+			<div class="footerColumns">
+				<h3>Contact Clowning Around</h3>
+				<p>Clowning Around</p>
+				<p>321 Copperfield Drive</p>
+				<p>Archerfield  Qld  4108</p>
+				<p>Ph:  3300 1234</p>
+				<p>Email: info@clowningaround.com.au</p>
+			</div>
+			<div class="footerColumns">
+				<div class="site_index">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="classes.html">Classes</a></li>
+						<li><ul>
+							<li><a href="clowning.html">Clowning</a></li>
+							<li><a href="floor_acrobatics.html">Floor Arcobatics</a></li>
+							<li><a href="me_and_that.html">Me & That</a></li>
+							<li><a href="tightwire.html">Tightwire</a></li>
+							<li><a href="silks.html">Silks</a></li>
+						</ul></li>
+					</ul>
+				</div>
+				<div class="site_index">
+					<ul>
+						<li><a href="camps.html">Camps</a></li>
+						<li><a href="workshops.html">Workshops</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><ul>
+							<li><a href="enquiries_form.html">Enquiries Form</a></li>	
+						</ul></li>
+					</ul>
+				</div>				
+			</div>
+			<div class="footerColumns">
+			<p>Clowning Around</p>
+			<p>Site Updated: 17 May 2014</p>
+			</div>
+		</footer>
+		</div>
+		<!-- Links to JavaScipt -->
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/form_validation.js"></script>
+	</body>
+</html>	
